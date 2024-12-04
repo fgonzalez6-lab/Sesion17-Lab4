@@ -56,6 +56,42 @@ table th {
     background-color: #f0f0f0;
 }
 
+/* Estilos del Formulario */
+.formulario {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formulario button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.formulario button:hover {
+    background-color: #005bb5;
+}
+
 /* Footer */
 footer {
     text-align: center;
