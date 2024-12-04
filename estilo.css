@@ -67,12 +67,12 @@ table th {
 }
 
 .formulario label {
-    display: block;
+    /*display: block;*/
     margin: 10px 0 5px;
 }
 
 .formulario input {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
