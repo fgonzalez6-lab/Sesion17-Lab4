@@ -3,12 +3,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header */
 header {
     background-color: #0073e6;
     color: white;
@@ -16,48 +14,46 @@ header {
     padding: 20px 0;
 }
 
-/* Main Contenido */
-main {
+/* Secciones generales */
+section {
+    width: 80%;
+    margin: 20px auto;
     padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #00509e;
+/* Estilos únicos para cada sección */
+.hobbies {
+    background-color: #ffefcf;
+    color: #8a5a00;
 }
 
-form {
-    background: white;
-    padding: 20px;
+.tareas {
+    background-color: #d8effb;
+    color: #005f73;
+}
+
+.horario {
+    background-color: #fbe4e6;
+    color: #b3001b;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table th, table td {
     border: 1px solid #ccc;
-    border-radius: 5px;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-form label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-form input {
-    width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    text-align: center;
 }
 
-form button {
-    background-color: #0073e6;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-form button:hover {
-    background-color: #005bb5;
+table th {
+    background-color: #f0f0f0;
 }
 
 /* Footer */
@@ -66,7 +62,4 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
